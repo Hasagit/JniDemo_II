@@ -8,7 +8,7 @@ import java.util.List;
  */
 
 public class JniUntil {
-    public native String getString(String str);
+    public static native String getString(String str);
 
     public native int sum(int a,int b);
 
@@ -21,4 +21,6 @@ public class JniUntil {
     static {
         System.loadLibrary("JniTest");
     }
+
+
 }

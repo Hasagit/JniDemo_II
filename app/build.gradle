@@ -14,6 +14,7 @@ android {
         ndk{
             moduleName "JniTest"
         }
+
     }
     buildTypes {
         release {
