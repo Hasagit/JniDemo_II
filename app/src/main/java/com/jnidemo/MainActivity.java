@@ -10,6 +10,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private JniUntil until;
     //ver_4
+    //ver_6
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
